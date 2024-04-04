@@ -6,7 +6,7 @@ ol {
   
   /* Write your CSS below, don't change the rules above. */
   
-h1[value="1"]{color: green}
+h1[value="1"]{color: #43766C}
 
 
   .note{font-size: 20px}
@@ -21,3 +21,6 @@ img[value="gmprofile"]{align-: center;
     margin-right: auto;
     display: block;
 }
+
+html{background-color: #481E14}
+*{color: #B19470}
