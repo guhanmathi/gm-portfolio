@@ -1,0 +1,23 @@
+ol {
+    margin-left: -40px;
+    margin-top: -20px;
+    list-style-position: inside;
+  }
+  
+  /* Write your CSS below, don't change the rules above. */
+  
+h1[value="1"]{color: green}
+
+
+  .note{font-size: 20px}
+  #id-selector-demo{color: green}
+  li[value="4"]{color: blue}
+.align{text-align: center;}
+
+img[value="gmprofile"]{align-: center; 
+    height: 120px; 
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
