@@ -6,7 +6,7 @@ ol {
   
   /* Write your CSS below, don't change the rules above. */
   
-h1[value="1"]{color: #43766C}
+h1[value="1"]{color: #43766C; background-color:#B19470;}
 
 
   .note{font-size: 20px}
