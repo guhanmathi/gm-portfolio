@@ -5,6 +5,13 @@ ol {
   }
   
   /* Write your CSS below, don't change the rules above. */
+  h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: "libre-baskerville-bold";
+
+  }
+
   
 h1[value="1"]{color: #43766C; background-color:#B19470}
 
@@ -20,7 +27,35 @@ img[value="gmprofile"]{align-: center;
     margin-left: auto;
     margin-right: auto;
     display: block;
+    border: solid 4px #B19470
 }
 
 html{background-color: #481E14}
 *{color: #B19470}
+
+.roboto-mono {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 40px;
+    font-style: normal;
+  }
+
+
+  .poster{
+    text-align: center;
+    color: #B19470;
+    margin-left: 25px;
+    margin-top: 100px;
+  }
+
+  
+  img{
+
+    border: 5px solid #B19470;
+    width: 80%;
+  }
+
+  .intro{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
