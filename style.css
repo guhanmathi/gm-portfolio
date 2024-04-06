@@ -7,16 +7,15 @@ ol {
   /* Write your CSS below, don't change the rules above. */
   h1 {
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: "libre-baskerville-bold";
-
   }
 
   
 h1[value="1"]{color: #43766C; background-color:#B19470}
 
 
-  .note{font-size: 20px}
+.note{font-size: 20px}
   #id-selector-demo{color: green}
   li[value="4"]{color: blue}
 .align{text-align: center;}
@@ -45,15 +44,14 @@ html{background-color: #481E14}
     text-align: center;
     color: #B19470;
     margin-left: 25px;
-    margin-top: 30px;
-
+    margin-top: 20px;
   }
 
   
   .intro_img{
 
     border: 5px solid #B19470;
-    width: 60%;
+    width: 40%;
   }
 
   .intro{
