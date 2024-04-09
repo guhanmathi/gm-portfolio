@@ -66,3 +66,7 @@ html{background-color: #481E14}
     font-style: italic;
 
   }
+
+  .quote-highlight{
+    color: rgb(111, 143, 52);
+  }
