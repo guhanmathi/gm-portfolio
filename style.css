@@ -39,7 +39,9 @@ html{background-color: #481E14}
     font-style: normal;
   }
 
-
+  .left{
+    float: left;
+  }
   .poster{
     text-align: center;
     color: #B19470;
