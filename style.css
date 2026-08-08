@@ -469,6 +469,34 @@ img {
     color: var(--accent);
 }
 
+.skill-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.chip {
+    display: inline-block;
+    padding: 6px 14px;
+    font-size: 0.85rem;
+    font-family: var(--font-mono);
+    color: var(--muted);
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    transition: all 0.2s ease;
+}
+
+.skill-group:hover .chip {
+    color: var(--text);
+}
+
+.chip:hover {
+    color: var(--accent-strong);
+    border-color: var(--accent);
+    background: var(--accent-dim);
+}
+
 /* ---------- Resume skills ---------- */
 
 .resume-skills {
