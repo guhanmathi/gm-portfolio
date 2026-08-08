@@ -1,37 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" >
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <title>Guhan Mathiazhagan — Oracle &amp; Cloud Database Professional</title>
+    <meta name="description" content="Portfolio of Guhan Mathiazhagan, an AWS and Oracle certified database professional with 11+ years of experience in cloud migration, database administration, and technical support.">
+    <link rel="icon" href="./assest/images/gmlogo1.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-<link rel="icon" href="./assest/images/gmlogo1.png" type="image/x-icon"/>    
-<title>Guhan</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
-    <!---
-        <h1 style="color: darkgreen;">Welcome to my site</h1>
-    
-        --->
-    <div class="intro">
-        <img class="left" src="./assest/images/gmlogo1.png" width="43">
-        <h1 value="1" class="roboto-mono" > Welcome to my site</h1>
-        <a href="./public/gm.html">About Me</a> <br/>
-        <a href="https://gmstack.duckdns.org"> MyHomeServer</a>
 
-    </div> 
-        
+    <nav class="nav">
+        <div class="container nav-inner">
+            <a href="#top" class="brand">
+                <img src="./assest/images/gmlogo1.png" alt="GM logo" width="26" height="26">
+                <span>Guhan</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a class="nav-resume" href="./public/gm.html">Resume</a></li>
+            </ul>
+        </div>
+    </nav>
 
-    <div class="poster">
-        <img src="./assest/images/lh.png" class="intro_img" />
-        <h1>The only way to fail is to give up. As long as you <span class="quote-highlight">keep moving forward</span>, you’re still in the game.</h1>
-        <p> Lewis Hamilton</p>
-    </div>   
+    <header id="top" class="hero">
+        <div class="container">
+            <p class="eyebrow">Oracle &amp; PostgreSQL Database Professional</p>
+            <h1 class="hero-title">Guhan <span class="accent">Mathiazhagan</span></h1>
+            <p class="hero-sub">
+                AWS and Oracle certified professional with <strong>11+ years</strong> of experience in database
+                management, cloud migration, and technical support. Trusted by global banking and enterprise
+                customers to keep critical data available, secure, and performing.
+            </p>
+            <div class="hero-actions">
+                <a class="btn btn-primary" href="#experience">Explore Experience</a>
+                <a class="btn btn-outline" href="./public/gm.html">Full Resume</a>
+                <a class="btn btn-outline" href="#contact">Get in Touch</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-num">11+</span>
+                    <span class="stat-label">Years of Experience</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num">3000+</span>
+                    <span class="stat-label">Databases Managed</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num">100%</span>
+                    <span class="stat-label">SLA Achievement</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num">90%+</span>
+                    <span class="stat-label">Compliance Record</span>
+                </div>
+            </div>
+        </div>
+    </header>
 
+    <section id="about" class="section">
+        <div class="container">
+            <p class="eyebrow">About Me</p>
+            <h2>Database expert. Cloud enthusiast. Problem solver.</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        With over 11 years of expertise in database management and technical support, I help
+                        organisations run reliable, high-performance data platforms. I specialise in Oracle and
+                        PostgreSQL administration, high-availability architectures, and migration to the cloud
+                        (AWS, OCI and Azure).
+                    </p>
+                    <p>
+                        Backed by a robust ITIL background and a strong focus on customer success, I thrive on
+                        solving complex incidents, tuning performance, and embracing new technologies for
+                        continuous excellence.
+                    </p>
+                    <ul class="about-facts">
+                        <li><strong>Location:</strong> Croydon, London, UK</li>
+                        <li><strong>Email:</strong> <a href="mailto:mguhan89@gmail.com">mguhan89@gmail.com</a></li>
+                        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/mguhan/" target="_blank" rel="noopener">linkedin.com/in/mguhan</a></li>
+                        <li><strong>Credentials:</strong> AWS · Oracle · Microsoft Azure · ITIL</li>
+                    </ul>
+                </div>
+                <div class="about-photo">
+                    <img src="./assest/images/profile_pic.jpeg" alt="Guhan Mathiazhagan — profile picture">
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section id="expertise" class="section section-alt">
+        <div class="container">
+            <p class="eyebrow">Core Expertise</p>
+            <h2>What I do</h2>
+            <div class="expertise-grid">
+                <div class="card">
+                    <h3>Oracle Database Administration</h3>
+                    <p>Oracle 11g to 19c, RAC, ASM and Exadata in 24×7 banking and enterprise environments.</p>
+                </div>
+                <div class="card">
+                    <h3>PostgreSQL Administration</h3>
+                    <p>Administration, monitoring and performance management of PostgreSQL systems.</p>
+                </div>
+                <div class="card">
+                    <h3>Cloud Migration</h3>
+                    <p>On-premises to cloud migrations using Oracle Datapump, Data Guard and native cloud tooling.</p>
+                </div>
+                <div class="card">
+                    <h3>High Availability &amp; DR</h3>
+                    <p>RAC switchovers, Data Guard, GoldenGate replication and failover strategies with 100% data integrity.</p>
+                </div>
+                <div class="card">
+                    <h3>Backup &amp; Recovery</h3>
+                    <p>RMAN and Datapump backup strategies, restores, point-in-time recovery and migration execution.</p>
+                </div>
+                <div class="card">
+                    <h3>Performance Tuning</h3>
+                    <p>OEM, AWR, SQL Trace and explain plans to diagnose and eliminate performance bottlenecks.</p>
+                </div>
+                <div class="card">
+                    <h3>Incident &amp; Change Management</h3>
+                    <p>ITIL-driven processes with ServiceNow, Jira and Oracle SR management across global environments.</p>
+                </div>
+                <div class="card">
+                    <h3>Scripting &amp; Automation</h3>
+                    <p>Custom monitoring scripts and automation to reduce downtime and improve operational efficiency.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <div class="container">
+            <p class="eyebrow">Career</p>
+            <h2>Work Experience</h2>
+            <div class="timeline">
+                <article class="timeline-item">
+                    <div class="timeline-head">
+                        <div>
+                            <h3>Senior Assistant Vice President</h3>
+                            <p class="company">Wells Fargo International Solutions Pvt Ltd</p>
+                        </div>
+                        <span class="timeline-date">Jan 2022 — Present</span>
+                    </div>
+                    <ul>
+                        <li>Manage Oracle and PostgreSQL databases for global banking systems, ensuring high availability and compliance.</li>
+                        <li>Lead incident, change and service catalogue requests via ServiceNow and Jira with a 100% SLA record.</li>
+                        <li>Drive efficiency with OEM, SQL*Plus and custom Tanel Poder monitoring scripts (+20% efficiency).</li>
+                        <li>Orchestrate RAC switchovers and switchbacks and resolve Data Guard sync issues, cutting downtime by 25%.</li>
+                        <li>Run RMAN and Datapump backups and migrations with 100% data integrity, plus GoldenGate log monitoring.</li>
+                    </ul>
+                </article>
+
+                <article class="timeline-item">
+                    <div class="timeline-head">
+                        <div>
+                            <h3>Senior Software Engineer</h3>
+                            <p class="company">Oracle India Pvt Ltd</p>
+                        </div>
+                        <span class="timeline-date">Aug 2014 — Jan 2022</span>
+                    </div>
+                    <ul>
+                        <li>Provided global technical support for Oracle database backups, memory configuration and troubleshooting.</li>
+                        <li>Diagnosed and resolved ORA-04030 / ORA-04031 memory errors and ORA-00600 issues.</li>
+                        <li>Achieved a 95% customer satisfaction rating across a 24/7 global service desk.</li>
+                        <li>Executed on-premises to OCI migrations with Datapump, achieving a 90% first-time resolution rate.</li>
+                        <li>Authored technical documentation for critical issues and effective workarounds.</li>
+                    </ul>
+                </article>
+
+                <article class="timeline-item">
+                    <div class="timeline-head">
+                        <div>
+                            <h3>Senior Systems Executive</h3>
+                            <p class="company">Cognizant Technology Solutions</p>
+                        </div>
+                        <span class="timeline-date">Jan 2014 — Aug 2014</span>
+                    </div>
+                    <ul>
+                        <li>Delivered Oracle DBA support at the GSSC for retail and banking clients in the Middle East.</li>
+                        <li>Configured SPfiles, resolved blocking sessions, enabled archive logging and managed tablespaces.</li>
+                        <li>Maintained a 99% SLA with disciplined privilege, role and password management.</li>
+                    </ul>
+                </article>
+
+                <article class="timeline-item">
+                    <div class="timeline-head">
+                        <div>
+                            <h3>Senior Systems Executive</h3>
+                            <p class="company">Cognizant Technology Solutions</p>
+                        </div>
+                        <span class="timeline-date">Aug 2011 — Jan 2014</span>
+                    </div>
+                    <ul>
+                        <li>Administered 3000+ Oracle databases (9i–11g) for JnJ ITIS in a regulated environment.</li>
+                        <li>Handled installations, patching, schema and database refreshes, and user security management.</li>
+                        <li>Generated AWR reports, monitored backups and applied CPU patches for security and performance.</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="section section-alt">
+        <div class="container">
+            <p class="eyebrow">Credentials</p>
+            <h2>Certifications</h2>
+            <ul class="cert-list">
+                <li>ITIL Foundation Certificate in IT Service Management</li>
+                <li>Microsoft Certified: Azure Fundamentals</li>
+                <li>Oracle Cloud Infrastructure Architect Associate (OCA)</li>
+                <li>Oracle Cloud Infrastructure Foundations (OCA)</li>
+                <li>Oracle Certified Professional, Oracle Database 12c Administrator</li>
+                <li>Oracle Certified Expert — RAC 11g &amp; Grid Infrastructure Administrator</li>
+                <li>Oracle Certified Professional, Oracle Database 11g Administrator</li>
+                <li>Oracle Certified Associate, Oracle Database 11g</li>
+                <li>Oracle Certified Associate, Oracle Java SE 8 Programmer</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="education" class="section">
+        <div class="container">
+            <p class="eyebrow">Education</p>
+            <h2>Academic Background</h2>
+            <div class="education-grid">
+                <div class="card">
+                    <h3>B.E., Electronics &amp; Communication Engineering</h3>
+                    <p>Dr. Mahalingam College of Engineering and Technology</p>
+                    <span class="timeline-date">2006 — 2010</span>
+                </div>
+                <div class="card">
+                    <h3>Higher Secondary Education (11th &amp; 12th)</h3>
+                    <p>Vidyaa Vikas Matric Higher Secondary School, Tiruchengode</p>
+                    <span class="timeline-date">2004 — 2006</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section section-contact">
+        <div class="container">
+            <p class="eyebrow">Contact</p>
+            <h2>Let's build something reliable together</h2>
+            <p class="contact-sub">
+                Whether it's a cloud migration, a performance challenge, or a database that needs expert care,
+                I'd love to hear from you.
+            </p>
+            <div class="contact-actions">
+                <a class="btn btn-primary" href="mailto:mguhan89@gmail.com">Email Me</a>
+                <a class="btn btn-outline" href="https://www.linkedin.com/in/mguhan/" target="_blank" rel="noopener">LinkedIn</a>
+                <a class="btn btn-outline" href="https://gmstack.duckdns.org" target="_blank" rel="noopener">My Home Server</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Guhan Mathiazhagan. All rights reserved.</p>
+            <p class="footer-quote">“The only way to fail is to give up. As long as you keep moving forward, you're still in the game.” — Lewis Hamilton</p>
+        </div>
+    </footer>
 
 </body>
 </html>
