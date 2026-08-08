@@ -424,6 +424,79 @@ img {
     font-weight: 700;
 }
 
+/* ---------- Skills grid (index) ---------- */
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+}
+
+.skill-group {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 22px 24px;
+}
+
+.skill-group h3 {
+    font-size: 0.85rem;
+    font-weight: 700;
+    font-family: var(--font-mono);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--accent);
+    margin-bottom: 14px;
+}
+
+.skill-group ul {
+    list-style: none;
+    display: grid;
+    gap: 8px;
+}
+
+.skill-group li {
+    position: relative;
+    padding-left: 16px;
+    color: var(--muted);
+    font-size: 0.92rem;
+}
+
+.skill-group li::before {
+    content: "▹";
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+}
+
+/* ---------- Resume skills ---------- */
+
+.resume-skills {
+    display: grid;
+    gap: 16px;
+}
+
+.skill-cat {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px 20px;
+}
+
+.skill-cat-label {
+    font-family: var(--font-mono);
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--accent);
+}
+
+.skill-cat p {
+    margin: 6px 0 0;
+    color: var(--muted);
+}
+
 /* ---------- Education ---------- */
 
 .education-grid {
