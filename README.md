@@ -17,7 +17,8 @@ phone number.
 
 ## Design (2026 refresh)
 
-- Dark glass UI with a blue / cyan palette (`--blue #4c8dff`, `--cyan #2fd4f0`).
+- Dark glass UI with one solid blue accent (`--accent #3a6fd8`, text accents `--blue-soft #8db8ff`);
+  no gradient buttons or gradient text.
 - No job-seeking / availability wording on the site (kept private).
 - Geist + Geist Mono (Google Fonts).
 - Floating pill nav with scrollspy, bento expertise grid with a replication-topology diagram,

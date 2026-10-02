@@ -1,7 +1,6 @@
 /* =========================================================
    gm-portfolio — 2026 refresh
-   Dark glass, blue/cyan accents, bento grid.
-   Shared by index.html and public/gm.html.
+   Dark glass, one solid blue accent (no gradients), bento grid.
    ========================================================= */
 
 :root {
@@ -17,12 +16,14 @@
 
     --blue: #4c8dff;
     --blue-soft: #8db8ff;
-    --cyan: #2fd4f0;
+    --cyan: #7aa7f5;
+    --accent: #3a6fd8;
+    --accent-hover: #4a7de0;
     --indigo: #7c7cff;
     --green: #4fdc9d;
     --accent-dim: rgba(76, 141, 255, 0.16);
-    --grad: linear-gradient(100deg, #9cc2ff 0%, #4c8dff 42%, #2fd4f0 100%);
-    --grad-line: linear-gradient(135deg, rgba(124, 178, 255, 0.55), rgba(47, 212, 240, 0.15) 40%, rgba(124, 124, 255, 0.08) 70%, rgba(76, 141, 255, 0.4));
+    --grad: linear-gradient(var(--accent), var(--accent));
+    --grad-line: linear-gradient(135deg, rgba(124, 178, 255, 0.55), rgba(76, 141, 255, 0.15) 40%, rgba(76, 141, 255, 0.08) 70%, rgba(76, 141, 255, 0.4));
 
     --font-sans: 'Geist', 'Inter', -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     --font-mono: 'Geist Mono', 'Roboto Mono', ui-monospace, 'SF Mono', Menlo, monospace;
@@ -62,8 +63,8 @@ body::before {
     pointer-events: none;
     background:
         radial-gradient(42rem 30rem at 12% -6%, rgba(76, 141, 255, 0.22), transparent 70%),
-        radial-gradient(36rem 28rem at 92% 8%, rgba(47, 212, 240, 0.12), transparent 70%),
-        radial-gradient(40rem 34rem at 70% 105%, rgba(124, 124, 255, 0.12), transparent 70%),
+        radial-gradient(36rem 28rem at 92% 8%, rgba(76, 141, 255, 0.12), transparent 70%),
+        radial-gradient(40rem 34rem at 70% 105%, rgba(76, 141, 255, 0.12), transparent 70%),
         var(--bg);
 }
 
@@ -131,10 +132,6 @@ section { scroll-margin-top: 96px; }
 }
 
 .grad-text {
-    background: var(--grad);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
     color: var(--blue-soft);
 }
 
@@ -232,17 +229,16 @@ section { scroll-margin-top: 96px; }
 }
 
 .nav-links a.nav-cta {
-    color: #04101f;
-    background: var(--grad);
+    color: #fff;
+    background: var(--accent);
     font-weight: 600;
     margin-left: 6px;
 }
 
 .nav-links a.nav-cta:hover,
 .nav-links a.nav-cta.is-active {
-    color: #04101f;
-    background: var(--grad);
-    box-shadow: 0 6px 22px -6px rgba(76, 141, 255, 0.8);
+    color: #fff;
+    background: var(--accent-hover);
 }
 
 /* ---------- Buttons ---------- */
@@ -262,15 +258,15 @@ section { scroll-margin-top: 96px; }
 }
 
 .btn-primary {
-    background: var(--grad);
-    color: #04101f;
-    box-shadow: 0 10px 30px -10px rgba(76, 141, 255, 0.75);
+    background: var(--accent);
+    color: #fff;
+    box-shadow: 0 6px 18px -10px rgba(0, 0, 0, 0.8);
 }
 
 .btn-primary:hover {
-    color: #04101f;
+    color: #fff;
+    background: var(--accent-hover);
     transform: translateY(-2px);
-    box-shadow: 0 16px 36px -10px rgba(47, 212, 240, 0.7);
 }
 
 .btn-outline {
@@ -325,7 +321,7 @@ section { scroll-margin-top: 96px; }
     height: 7px;
     border-radius: 50%;
     background: var(--cyan);
-    box-shadow: 0 0 0 4px rgba(47, 212, 240, 0.16);
+    box-shadow: 0 0 0 4px rgba(76, 141, 255, 0.16);
 }
 
 .hero-title {
@@ -563,7 +559,7 @@ section { scroll-margin-top: 96px; }
     margin-bottom: 16px;
     border-radius: 12px;
     color: var(--blue-soft);
-    background: linear-gradient(135deg, rgba(76, 141, 255, 0.2), rgba(47, 212, 240, 0.08));
+    background: linear-gradient(135deg, rgba(76, 141, 255, 0.2), rgba(76, 141, 255, 0.08));
     border: 1px solid var(--line-strong);
 }
 
@@ -658,7 +654,7 @@ section { scroll-margin-top: 96px; }
     top: 8px;
     bottom: 8px;
     width: 2px;
-    background: linear-gradient(180deg, var(--blue), rgba(47, 212, 240, 0.35) 30%, var(--line) 70%);
+    background: linear-gradient(180deg, var(--blue), rgba(76, 141, 255, 0.35) 30%, var(--line) 70%);
     border-radius: 2px;
 }
 
@@ -685,7 +681,7 @@ section { scroll-margin-top: 96px; }
 .timeline-item:first-child::before {
     background: var(--cyan);
     border-color: var(--cyan);
-    box-shadow: 0 0 0 5px rgba(47, 212, 240, 0.15), 0 0 18px rgba(47, 212, 240, 0.6);
+    box-shadow: 0 0 0 5px rgba(76, 141, 255, 0.15);
 }
 
 .timeline-head {
@@ -832,8 +828,8 @@ section { scroll-margin-top: 96px; }
     padding: 4px 6px;
     border-radius: 7px;
     color: var(--cyan);
-    background: rgba(47, 212, 240, 0.08);
-    border: 1px solid rgba(47, 212, 240, 0.28);
+    background: rgba(76, 141, 255, 0.08);
+    border: 1px solid rgba(76, 141, 255, 0.28);
 }
 
 /* ---------- Education ---------- */
@@ -851,7 +847,7 @@ section { scroll-margin-top: 96px; }
     overflow: hidden;
     background:
         radial-gradient(60% 90% at 50% 120%, rgba(76, 141, 255, 0.28), transparent 70%),
-        radial-gradient(40% 60% at 85% -10%, rgba(47, 212, 240, 0.14), transparent 70%),
+        radial-gradient(40% 60% at 85% -10%, rgba(76, 141, 255, 0.14), transparent 70%),
         var(--surface);
 }
 
