@@ -3,26 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guhan Mathiazhagan — Senior Database Engineer</title>
-    <meta name="description" content="Portfolio of Guhan Mathiazhagan, a Senior Database Administrator with 12+ years managing high-availability Oracle and PostgreSQL environments across banking and financial services. AWS and Oracle certified.">
-    <link rel="icon" href="./assest/images/gmlogo1_subtle_blue.png" type="image/x-icon">
+    <title>Guhan Mathiazhagan — Senior Database Administrator</title>
+    <meta name="description" content="Guhan Mathiazhagan — Senior Oracle &amp; PostgreSQL Database Administrator with 12+ years across banking and financial services: high availability, replication, migrations and near-zero-downtime upgrades.">
+    <meta name="theme-color" content="#05080f">
+    <meta property="og:title" content="Guhan Mathiazhagan — Senior Database Administrator">
+    <meta property="og:description" content="12+ years running high-availability Oracle and PostgreSQL estates across banking and financial services.">
+    <meta property="og:image" content="./assest/images/profile_pic.jpeg">
+    <link rel="icon" href="./assest/images/gmlogo1_subtle_blue.png" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
 
-    <nav class="nav">
-        <div class="container nav-inner">
+    <nav class="nav" aria-label="Main">
+        <div class="nav-inner">
             <a href="#top" class="brand">
-                <img src="./assest/images/gmlogo1_subtle_blue.png" alt="GM logo" width="26" height="26">
-                <span>Guhan</span>
+                <img src="./assest/images/gmlogo1_subtle_blue.png" alt="" width="30" height="30">
+                <span>Guhan Mathiazhagan</span>
             </a>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
+                <li><a href="#expertise">Expertise</a></li>
                 <li><a href="#experience">Experience</a></li>
-                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a class="nav-resume" href="./public/gm.html">Resume</a></li>
             </ul>
@@ -31,35 +37,54 @@
 
     <header id="top" class="hero">
         <div class="container">
-            <p class="eyebrow">Senior Database Administrator · Data Engineer</p>
-            <h1 class="hero-title">Guhan <span class="accent">Mathiazhagan</span></h1>
-            <p class="hero-sub">
-                AWS and Oracle Certified Professional with <strong>12+ years</strong> managing high-availability
-                Oracle and PostgreSQL environments across banking and financial services. Currently <strong>Data
-                Engineer III at American Express</strong>, applying core DBA expertise to Kafka-based replication
-                and CI/CD-driven database release management.
-            </p>
-            <div class="hero-actions">
-                <a class="btn btn-primary" href="#experience">Explore Experience</a>
-                <a class="btn btn-outline" href="./public/gm.html">Full Resume</a>
-                <a class="btn btn-outline" href="#contact">Get in Touch</a>
+            <div class="hero-grid">
+                <div class="reveal">
+                    <span class="status"><span class="dot" aria-hidden="true"></span>Open to senior DBA roles</span>
+                    <h1 class="hero-title">Guhan <span class="grad-text">Mathiazhagan</span></h1>
+                    <p class="hero-role">Senior Database Administrator · Oracle &amp; PostgreSQL</p>
+                    <p class="hero-sub">
+                        Keeping thousands of production databases online for banks. <strong>12+ years</strong>
+                        running high-availability Oracle and PostgreSQL estates — replication, disaster recovery,
+                        compliant patching and near-zero-downtime migrations. Currently <strong>Data Engineer III
+                        at American Express</strong>, London.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="#experience">Explore experience <span class="arrow" aria-hidden="true">→</span></a>
+                        <a class="btn btn-outline" href="./public/gm.html">Full resume</a>
+                        <a class="btn btn-outline" href="#contact">Get in touch</a>
+                    </div>
+                </div>
+
+                <figure class="hero-card glass glow reveal">
+                    <div class="photo">
+                        <img src="./assest/images/profile_pic.jpeg" alt="Guhan Mathiazhagan" width="400" height="400">
+                        <div class="badge-row" aria-hidden="true">
+                            <span>Oracle RAC</span><span>Data Guard</span><span>GoldenGate</span><span>PostgreSQL</span>
+                        </div>
+                    </div>
+                    <figcaption class="meta">
+                        <span><b>London</b>, United Kingdom</span>
+                        <span>OCP · OCE · AWS</span>
+                    </figcaption>
+                </figure>
             </div>
+
             <div class="hero-stats">
-                <div class="stat">
-                    <span class="stat-num">12+</span>
-                    <span class="stat-label">Years of Experience</span>
+                <div class="stat glass reveal">
+                    <span class="stat-num grad-text">12+</span>
+                    <span class="stat-label">Years across Oracle &amp; PostgreSQL administration</span>
                 </div>
-                <div class="stat">
-                    <span class="stat-num">3000+</span>
-                    <span class="stat-label">Databases Managed</span>
+                <div class="stat glass reveal">
+                    <span class="stat-num grad-text">5,000+</span>
+                    <span class="stat-label">Production databases in the team-managed estate</span>
                 </div>
-                <div class="stat">
-                    <span class="stat-num">100%</span>
-                    <span class="stat-label">SLA Compliance</span>
+                <div class="stat glass reveal">
+                    <span class="stat-num grad-text">v13→v17</span>
+                    <span class="stat-label">PostgreSQL upgraded over two cycles, near-zero downtime</span>
                 </div>
-                <div class="stat">
-                    <span class="stat-num">25%</span>
-                    <span class="stat-label">Downtime Reduction</span>
+                <div class="stat glass reveal">
+                    <span class="stat-num grad-text">95%</span>
+                    <span class="stat-label">Customer satisfaction on global Oracle support</span>
                 </div>
             </div>
         </div>
@@ -67,226 +92,299 @@
 
     <section id="about" class="section">
         <div class="container">
-            <p class="eyebrow">About Me</p>
-            <h2>Data platforms that stay up, stay secure, stay fast.</h2>
+            <div class="section-head reveal">
+                <p class="eyebrow">About</p>
+                <h2>Data platforms that stay up, stay secure, stay fast.</h2>
+            </div>
             <div class="about-grid">
-                <div class="about-text">
+                <div class="about-text glass reveal">
                     <p>
-                        I'm a Senior Database Administrator with 12+ years managing high-availability Oracle and
-                        PostgreSQL environments across banking, aviation, and financial services. My deep expertise
-                        spans Oracle RAC, Data Guard, GoldenGate replication, Exadata and RMAN — supporting
-                        mission-critical systems with 100% SLA compliance and up to 25% downtime reduction through
-                        RAC and replication optimization.
+                        Senior Database Administrator with 12+ years managing high-availability Oracle and PostgreSQL
+                        environments across banking and financial services, supporting a team-managed estate of
+                        <strong>5,000+ production databases</strong>. A deep Oracle foundation — RAC, Data Guard,
+                        GoldenGate, Exadata, RMAN — combined with hands-on PostgreSQL administration: performance
+                        tuning, logical and streaming replication, backup and recovery, schema design and migration.
                     </p>
                     <p>
-                        Currently Data Engineer III at American Express, I apply that DBA foundation to Kafka-based
-                        big data replication and CI/CD-driven database release management, bridging traditional
-                        database operations with modern DevOps and cloud engineering.
+                        I diagnose and resolve critical production defects in direct partnership with Oracle Support,
+                        run compliant patching and migrations, and lead PostgreSQL version upgrades inside
+                        CI/CD-driven release environments.
                     </p>
-                    <ul class="about-facts">
-                        <li><strong>Location:</strong> London, United Kingdom</li>
-                        <li><strong>Email:</strong> <a href="mailto:mguhan89@gmail.com">mguhan89@gmail.com</a></li>
-                        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/mguhan/" target="_blank" rel="noopener">linkedin.com/in/mguhan</a></li>
-                        <li><strong>Credentials:</strong> AWS Certified Developer · Oracle · Microsoft Azure · ITIL</li>
-                    </ul>
+                    <blockquote class="pullquote">
+                        Redesigned an Exadata multi-instance switchover into an application-by-application sequence —
+                        eliminating a recurring production hang and stabilising every maintenance window since.
+                        <cite>Wells Fargo · with Oracle Support</cite>
+                    </blockquote>
                 </div>
-                <div class="about-photo">
-                    <img src="./assest/images/profile_pic.jpeg" alt="Guhan Mathiazhagan — profile picture">
-                </div>
+                <ul class="facts glass reveal">
+                    <li><span>Location</span><b>London, United Kingdom</b></li>
+                    <li><span>Current</span><b>Data Engineer III, American Express</b></li>
+                    <li><span>Platforms</span><b>Oracle 11g–19c · PostgreSQL · Exadata</b></li>
+                    <li><span>Email</span><a href="mailto:mguhan89@gmail.com">mguhan89@gmail.com</a></li>
+                    <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/mguhan/" target="_blank" rel="noopener">linkedin.com/in/mguhan</a></li>
+                </ul>
             </div>
         </div>
     </section>
 
-    <section id="expertise" class="section section-alt">
+    <section id="expertise" class="section">
         <div class="container">
-            <p class="eyebrow">Core Expertise</p>
-            <h2>What I do</h2>
-            <div class="expertise-grid">
-                <div class="card">
-                    <h3>Oracle High Availability</h3>
-                    <p>Oracle 11g/12c/19c, RAC, Data Guard, GoldenGate, ASM and Exadata in 24×7 banking and financial systems.</p>
-                </div>
-                <div class="card">
-                    <h3>PostgreSQL &amp; Cloud Databases</h3>
-                    <p>Administration, performance tuning and near-zero-downtime upgrades using logical replication; YugabyteDB migrations.</p>
-                </div>
-                <div class="card">
-                    <h3>Big Data Replication</h3>
-                    <p>Kafka-based replication pipelines and Oracle GoldenGate configurations for critical financial data with minimal latency.</p>
-                </div>
-                <div class="card">
-                    <h3>Cloud Platforms</h3>
-                    <p>Architecture and migration on AWS, Oracle Cloud (OCI), Azure and GCP Cloud SQL — provisioned with Terraform.</p>
-                </div>
-                <div class="card">
-                    <h3>Backup, Recovery &amp; DR</h3>
-                    <p>RMAN, Datapump, Data Guard and disaster-recovery strategies with 100% data integrity.</p>
-                </div>
-                <div class="card">
-                    <h3>Performance Tuning</h3>
-                    <p>AWR, Explain Plan and SQL Trace to diagnose and eliminate bottlenecks — up to 20–25% improvement.</p>
-                </div>
-                <div class="card">
-                    <h3>DevOps &amp; CI/CD</h3>
-                    <p>Docker, GitHub Actions, Jenkins, Liquibase, Ansible, Terraform and Portainer for auditable database deployments.</p>
-                </div>
-                <div class="card">
-                    <h3>ITIL &amp; Service Management</h3>
-                    <p>Jira, ServiceNow and BMC Remedy governance with a 100% SLA record and 95%+ customer satisfaction.</p>
-                </div>
+            <div class="section-head reveal">
+                <p class="eyebrow">Core expertise</p>
+                <h2>What I do</h2>
+            </div>
+            <div class="bento">
+                <article class="card glass glow topo-card reveal">
+                    <div>
+                    <div class="icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5"/><path d="M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg>
+                    </div>
+                    <h3>Oracle high availability &amp; replication</h3>
+                    <p>Oracle 11g / 12c / 19c, RAC, Data Guard, GoldenGate, ASM and Exadata in 24×7 banking systems. Primary, synchronous standby, cross-region DR and logical subscribers — the shape of the day job.</p>
+                    </div>
+                    <div class="topo">
+                        <svg viewBox="0 0 700 150" role="img" aria-label="Diagram: a primary database replicating synchronously to a standby, asynchronously to a cross-region DR site, and by logical replication to an analytics subscriber.">
+                            <defs>
+                                <marker id="arw" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+                                    <path d="M0 0L10 5L0 10z" fill="currentColor"/>
+                                </marker>
+                            </defs>
+                            <g font-family="'Geist Mono', ui-monospace, monospace">
+                                <path d="M140 66 C 210 60, 214 38, 282 36" fill="none" stroke="currentColor" stroke-width="1.4" marker-end="url(#arw)"/>
+                                <path d="M140 84 C 210 90, 214 112, 282 114" fill="none" stroke="currentColor" stroke-width="1.4" marker-end="url(#arw)"/>
+                                <path d="M140 75 L 558 75" fill="none" stroke="currentColor" stroke-width="1.4" stroke-dasharray="3 4" marker-end="url(#arw)"/>
+                                <circle class="flow f1" r="2.8" style="offset-path:path('M140 66 C 210 60, 214 38, 282 36')"/>
+                                <circle class="flow f2" r="2.8" style="offset-path:path('M140 84 C 210 90, 214 112, 282 114')"/>
+                                <circle class="flow f3" r="2.8" style="offset-path:path('M140 75 L 558 75')"/>
+                                <text x="200" y="30" fill="#8e9cba" font-size="10">synchronous</text>
+                                <text x="200" y="132" fill="#8e9cba" font-size="10">asynchronous</text>
+                                <text x="440" y="68" fill="#8e9cba" font-size="10" text-anchor="middle">logical</text>
+
+                                <rect x="8" y="51" width="132" height="48" rx="9" fill="rgba(76,141,255,.12)" stroke="#4c8dff" stroke-width="1.5"/>
+                                <circle cx="24" cy="67" r="3.2" fill="#4fdc9d"/>
+                                <text x="74" y="73" text-anchor="middle" fill="#e9eefb" font-size="12">PRIMARY</text>
+                                <text x="74" y="89" text-anchor="middle" fill="#8e9cba" font-size="10">read / write</text>
+
+                                <rect x="284" y="12" width="132" height="48" rx="9" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                                <text x="350" y="34" text-anchor="middle" fill="#e9eefb" font-size="12">STANDBY</text>
+                                <text x="350" y="50" text-anchor="middle" fill="#8e9cba" font-size="10">sync · RPO 0</text>
+
+                                <rect x="284" y="90" width="132" height="48" rx="9" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                                <text x="350" y="112" text-anchor="middle" fill="#e9eefb" font-size="12">DR SITE</text>
+                                <text x="350" y="128" text-anchor="middle" fill="#8e9cba" font-size="10">cross-region</text>
+
+                                <rect x="560" y="51" width="132" height="48" rx="9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+                                <text x="626" y="73" text-anchor="middle" fill="#e9eefb" font-size="12">SUBSCRIBER</text>
+                                <text x="626" y="89" text-anchor="middle" fill="#8e9cba" font-size="10">analytics</text>
+                            </g>
+                        </svg>
+                    </div>
+                </article>
+
+                <article class="card glass reveal">
+                    <div class="icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 17l6-6-6-6"/><path d="M12 19h8"/></svg>
+                    </div>
+                    <h3>PostgreSQL</h3>
+                    <p>Administration, tuning and near-zero-downtime major upgrades with publication / subscription.</p>
+                </article>
+
+                <article class="card glass reveal">
+                    <div class="icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19a4.5 4.5 0 1 0-1.4-8.8A6 6 0 0 0 4.5 12 3.5 3.5 0 0 0 6 19z"/></svg>
+                    </div>
+                    <h3>Cloud databases</h3>
+                    <p>GCP Cloud SQL with Terraform, OCI migrations, AWS and Azure.</p>
+                </article>
+
+                <article class="card glass reveal">
+                    <div class="icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/><path d="M12 7v5l3 2"/></svg>
+                    </div>
+                    <h3>Backup, recovery &amp; DR</h3>
+                    <p>RMAN, Data Pump and Data Guard switchover / switchback with data integrity held throughout.</p>
+                </article>
+
+                <article class="card glass reveal">
+                    <div class="icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></svg>
+                    </div>
+                    <h3>Performance &amp; root cause</h3>
+                    <p>AWR, alert logs, ORA-00600 / 07445 / 04031 analysis with Oracle Support.</p>
+                </article>
+
+                <article class="card glass span-2 reveal">
+                    <div class="icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2.5"/><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="12" r="2.5"/><path d="M6 8.5v7"/><path d="M8.3 6.8C12 8 15 9 15.7 10.7"/></svg>
+                    </div>
+                    <h3>Database CI/CD &amp; automation</h3>
+                    <p>GitHub Actions and Liquibase for auditable schema change, Ansible and Jenkins for automated patching, Docker for PostgreSQL migrations.</p>
+                </article>
+
+                <article class="card glass span-2 reveal">
+                    <div class="icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/><path d="M10 6.5h4a3 3 0 0 1 3 3V14"/></svg>
+                    </div>
+                    <h3>Data modelling &amp; schema design</h3>
+                    <p>Tables and relationships from functional requirements, ER/Studio models turned into automated Oracle and PostgreSQL object creation.</p>
+                </article>
             </div>
         </div>
     </section>
 
     <section id="experience" class="section">
         <div class="container">
-            <p class="eyebrow">Career</p>
-            <h2>Work Experience</h2>
+            <div class="section-head reveal">
+                <p class="eyebrow">Career</p>
+                <h2>Production roles, 2011 — present</h2>
+            </div>
+
+            <div class="tenure glass reveal">
+                <div class="tenure-h"><span>Career</span><span>2011 — present</span></div>
+                <div class="tenure-bar" role="img" aria-label="Career: Cognizant 2011 to 2014, Oracle 2014 to 2022, Wells Fargo 2022 to 2024, American Express 2025 to present.">
+                    <i style="flex:37" title="Cognizant · 2011–2014"></i>
+                    <i style="flex:89" title="Oracle · 2014–2022"></i>
+                    <i style="flex:32" title="Wells Fargo · 2022–2024"></i>
+                    <i class="gap" style="flex:5"></i>
+                    <i class="now" style="flex:20" title="American Express · 2025–present"></i>
+                </div>
+                <div class="tenure-key">
+                    <span><b>Cognizant</b> ’11</span>
+                    <span><b>Oracle</b> ’14</span>
+                    <span><b>Wells Fargo</b> ’22</span>
+                    <span class="now"><b>American Express</b> ’25</span>
+                </div>
+            </div>
+
             <div class="timeline">
-                <article class="timeline-item">
+                <article class="timeline-item reveal">
                     <div class="timeline-head">
                         <div>
                             <h3>Data Engineer III</h3>
-                            <p class="company">American Express</p>
+                            <p class="company">American Express <span class="loc">· London</span></p>
                         </div>
                         <span class="timeline-date">Feb 2025 — Present</span>
                     </div>
                     <ul>
-                        <li>Implemented Kafka-based big data replication pipelines and GoldenGate configurations for critical financial systems with minimal latency.</li>
-                        <li>Developed and maintained CI/CD pipelines for database changes with GitHub Actions and Liquibase.</li>
-                        <li>Upgraded PostgreSQL v13 to v15 using logical replication (publication/subscription) for near-zero downtime.</li>
-                        <li>Provisioned and managed GCP Cloud SQL PostgreSQL with Terraform end-to-end.</li>
+                        <li>Upgraded PostgreSQL across two major versions (<b>v13 → v15 → v17</b>) with logical replication, achieving near-zero-downtime cutover each time.</li>
+                        <li>Resolved high-impact Oracle <b>GoldenGate</b> replication issues across a <b>5,000+ database estate</b>, configuring new services for minimal-latency sync.</li>
+                        <li>Built CI/CD pipelines for auditable database change with <b>GitHub Actions and Liquibase</b> across staging and production.</li>
+                        <li>Provisioned and managed <b>GCP Cloud SQL</b> PostgreSQL with Terraform; automated schema creation from <b>ER/Studio</b> models.</li>
                     </ul>
                 </article>
 
-                <article class="timeline-item">
+                <article class="timeline-item reveal">
                     <div class="timeline-head">
                         <div>
                             <h3>Senior Database Engineer</h3>
-                            <p class="company">Wells Fargo International Solutions Pvt Ltd</p>
+                            <p class="company">Wells Fargo International Solutions <span class="loc">· Bangalore</span></p>
                         </div>
                         <span class="timeline-date">Jan 2022 — Sep 2024</span>
                     </div>
                     <ul>
-                        <li>Engineered high-availability, secure and compliant Oracle and PostgreSQL environments, meeting 100% SLA via Jira and ServiceNow.</li>
-                        <li>Executed Oracle RAC switchovers and switchbacks, reducing downtime by 25% with 100% data integrity.</li>
-                        <li>Configured and monitored Oracle GoldenGate, cutting downtime by 20%; led PostgreSQL migrations in Docker with Ansible.</li>
-                        <li>Integrated database solutions into scalable CI/CD pipelines and led automated patching with Ansible and Jenkins.</li>
+                        <li>Diagnosed a recurring <b>Exadata</b> multi-instance switchover hang with Oracle Support and redesigned the switchover sequence, eliminating it.</li>
+                        <li>Led migration of application schemas to PostgreSQL in Docker with Ansible; contributed to a <b>YugabyteDB</b> proof of concept.</li>
+                        <li>Resolved <b>Data Guard</b> synchronisation issues and ran patching and migrations with RMAN and Data Pump to compliance standards.</li>
+                        <li>Configured and monitored <b>GoldenGate</b>; ran an Ansible + Jenkins automated-patching project.</li>
                     </ul>
                 </article>
 
-                <article class="timeline-item">
+                <article class="timeline-item reveal">
                     <div class="timeline-head">
                         <div>
                             <h3>Senior Software Engineer</h3>
-                            <p class="company">Oracle India Pvt Ltd</p>
+                            <p class="company">Oracle India <span class="loc">· Bangalore</span></p>
                         </div>
                         <span class="timeline-date">Aug 2014 — Jan 2022</span>
                     </div>
                     <ul>
-                        <li>Delivered 24/7 global support for Oracle database backups, memory configurations and troubleshooting, achieving 95% customer satisfaction.</li>
-                        <li>Resolved ORA-04030/04031, ORA-00600/07445 errors and led on-premises to OCI migrations with Datapump.</li>
-                        <li>Developed Python and Shell scripts for cloud-migration and data-pipeline workflows.</li>
+                        <li>Delivered <b>24/7 global Oracle database support</b>, sustaining <b>95% customer satisfaction</b>.</li>
+                        <li>Resolved ORA-04030 / 04031 memory and ORA-00600 / 07445 stability issues through bug analysis and root-cause write-ups.</li>
+                        <li>Led on-premises to <b>OCI</b> migrations with Data Pump; automated migration tasks in Python and Shell.</li>
                     </ul>
                 </article>
 
-                <article class="timeline-item">
+                <article class="timeline-item reveal">
                     <div class="timeline-head">
                         <div>
                             <h3>Senior Systems Executive</h3>
-                            <p class="company">Cognizant Technology Solutions</p>
+                            <p class="company">Cognizant Technology Solutions <span class="loc">· Bangalore</span></p>
                         </div>
                         <span class="timeline-date">Jan 2013 — Aug 2014</span>
                     </div>
                     <ul>
-                        <li>Maintained a 24/7 production environment for Middle East retail and banking clients with a 99% SLA.</li>
-                        <li>Configured SPfiles, archive logging and tablespaces; refreshed 50+ schemas and enforced auditing.</li>
-                        <li>Optimized performance with AWR, Explain Plan and SQL Trace; ran daily RMAN backups.</li>
+                        <li>Oracle DBA for Middle East retail and banking clients on a 24/7 production estate with a <b>99% SLA</b>.</li>
+                        <li>Refreshed <b>50+ schemas</b> to dev / staging with audit controls; AWR monitoring and daily RMAN backups.</li>
                     </ul>
                 </article>
 
-                <article class="timeline-item">
+                <article class="timeline-item reveal">
                     <div class="timeline-head">
                         <div>
-                            <h3>Systems Executive — First-Level Technical Support</h3>
-                            <p class="company">Cognizant Technology Solutions</p>
+                            <h3>Systems Executive — Technical Support</h3>
+                            <p class="company">Cognizant Technology Solutions <span class="loc">· Bangalore</span></p>
                         </div>
                         <span class="timeline-date">Jul 2011 — Dec 2012</span>
                     </div>
                     <ul>
-                        <li>Resolved 95% of incoming IT inquiries on first contact via ServiceNow and BMC Remedy.</li>
-                        <li>Managed user accounts, access provisioning and permissions across Linux and Windows environments.</li>
-                        <li>Performed installations, patching and upgrades while maintaining a knowledge base.</li>
+                        <li>Resolved ~<b>95% of IT tickets on first contact</b> via ServiceNow and BMC Remedy in a regulated healthcare environment.</li>
                     </ul>
                 </article>
+            </div>
+
+            <div class="more-link reveal">
+                <a class="btn btn-outline" href="./public/gm.html">Read the full resume <span class="arrow" aria-hidden="true">→</span></a>
             </div>
         </div>
     </section>
 
-    <section id="skills" class="section section-alt">
+    <section id="skills" class="section">
         <div class="container">
-            <p class="eyebrow">Skills</p>
-            <h2>Technical Toolkit</h2>
+            <div class="section-head reveal">
+                <p class="eyebrow">Skills</p>
+                <h2>Technical toolkit</h2>
+            </div>
             <div class="skills-grid">
-                <div class="skill-group">
+                <div class="skill-group glass reveal">
                     <h3>Databases</h3>
                     <div class="skill-chips">
-                        <span class="chip">Oracle 11g</span>
-                        <span class="chip">Oracle 12c</span>
-                        <span class="chip">Oracle 19c</span>
-                        <span class="chip">PostgreSQL</span>
-                        <span class="chip">SQL Server</span>
-                        <span class="chip">YugabyteDB</span>
+                        <span class="chip key">Oracle 11g / 12c / 19c</span><span class="chip key">PostgreSQL</span><span class="chip">SQL Server</span><span class="chip">YugabyteDB</span><span class="chip">Cassandra</span>
                     </div>
                 </div>
-                <div class="skill-group">
-                    <h3>Oracle Stack</h3>
+                <div class="skill-group glass reveal">
+                    <h3>Oracle stack</h3>
                     <div class="skill-chips">
-                        <span class="chip">Oracle RAC</span>
-                        <span class="chip">ASM</span>
-                        <span class="chip">AWR</span>
-                        <span class="chip">OEM</span>
-                        <span class="chip">Data Guard</span>
-                        <span class="chip">GoldenGate</span>
-                        <span class="chip">Exadata</span>
-                        <span class="chip">RMAN</span>
-                        <span class="chip">Datapump</span>
-                        <span class="chip">exp/imp</span>
+                        <span class="chip key">RAC</span><span class="chip key">Data Guard</span><span class="chip key">GoldenGate</span><span class="chip key">Exadata</span><span class="chip">RMAN</span><span class="chip">ASM</span><span class="chip">AWR</span><span class="chip">Data Pump</span><span class="chip">OEM</span><span class="chip">SQL*Plus</span>
                     </div>
                 </div>
-                <div class="skill-group">
-                    <h3>Cloud &amp; DevOps</h3>
+                <div class="skill-group glass reveal">
+                    <h3>PostgreSQL</h3>
                     <div class="skill-chips">
-                        <span class="chip">AWS</span>
-                        <span class="chip">OCI</span>
-                        <span class="chip">Azure</span>
-                        <span class="chip">GCP</span>
-                        <span class="chip">Docker</span>
-                        <span class="chip">Terraform</span>
-                        <span class="chip">GitHub Actions</span>
-                        <span class="chip">Jenkins</span>
-                        <span class="chip">Liquibase</span>
-                        <span class="chip">Ansible</span>
-                        <span class="chip">Portainer</span>
+                        <span class="chip key">Logical &amp; streaming replication</span><span class="chip">Installation &amp; configuration</span><span class="chip">Performance tuning</span><span class="chip">Backup &amp; recovery</span><span class="chip">Schema design &amp; migration</span><span class="chip">HA &amp; clustering</span>
                     </div>
                 </div>
-                <div class="skill-group">
-                    <h3>Programming &amp; Tools</h3>
+                <div class="skill-group glass reveal">
+                    <h3>Administration &amp; modelling</h3>
                     <div class="skill-chips">
-                        <span class="chip">Python</span>
-                        <span class="chip">Core Java</span>
-                        <span class="chip">Shell</span>
-                        <span class="chip">SQL</span>
-                        <span class="chip">ER/Studio</span>
-                        <span class="chip">JIRA</span>
-                        <span class="chip">ServiceNow</span>
-                        <span class="chip">BMC Remedy</span>
-                        <span class="chip">Kanban</span>
-                        <span class="chip">Office 365</span>
-                        <span class="chip">Linux</span>
-                        <span class="chip">Solaris</span>
-                        <span class="chip">Ubuntu</span>
-                        <span class="chip">Windows</span>
+                        <span class="chip">Disaster recovery</span><span class="chip">Security &amp; access control</span><span class="chip">Patching &amp; upgrades</span><span class="chip">Troubleshooting</span><span class="chip key">ER/Studio</span><span class="chip">Data warehousing</span>
+                    </div>
+                </div>
+                <div class="skill-group glass reveal">
+                    <h3>Cloud</h3>
+                    <div class="skill-chips">
+                        <span class="chip key">GCP Cloud SQL</span><span class="chip">AWS</span><span class="chip">Oracle Cloud (OCI)</span><span class="chip">Azure</span>
+                    </div>
+                </div>
+                <div class="skill-group glass reveal">
+                    <h3>DevOps &amp; CI/CD</h3>
+                    <div class="skill-chips">
+                        <span class="chip key">GitHub Actions</span><span class="chip key">Liquibase</span><span class="chip">Terraform</span><span class="chip">Ansible</span><span class="chip">Jenkins</span><span class="chip">Docker</span><span class="chip">Kubernetes</span><span class="chip">Grafana</span><span class="chip">Portainer</span>
+                    </div>
+                </div>
+                <div class="skill-group glass reveal">
+                    <h3>Programming &amp; tools</h3>
+                    <div class="skill-chips">
+                        <span class="chip key">PL/SQL</span><span class="chip key">PL/pgSQL</span><span class="chip">Python</span><span class="chip">Shell</span><span class="chip">Core Java</span><span class="chip">SQL</span><span class="chip">JIRA</span><span class="chip">ServiceNow</span><span class="chip">BMC Remedy</span><span class="chip">Kanban</span><span class="chip">Linux</span><span class="chip">Solaris</span><span class="chip">Ubuntu</span><span class="chip">Windows</span>
                     </div>
                 </div>
             </div>
@@ -295,50 +393,43 @@
 
     <section id="certifications" class="section">
         <div class="container">
-            <p class="eyebrow">Credentials</p>
-            <h2>Certifications</h2>
-            <ul class="cert-list">
-                <li>ITIL Foundation Certificate in IT Service Management</li>
-                <li>AWS Certified Developer — Associate</li>
-                <li>Microsoft Certified: Azure Fundamentals</li>
-                <li>Oracle Cloud Infrastructure Architect (OCA)</li>
-                <li>Oracle Cloud Infrastructure Foundations (OCA)</li>
-                <li>Oracle Certified Professional, Oracle Database 12c Administrator</li>
-                <li>Oracle Certified Expert — RAC 11g &amp; Grid Infrastructure Administrator</li>
-                <li>Oracle Certified Professional, Oracle Database 11g Administrator</li>
-                <li>Oracle Certified Associate, Oracle Database 11g</li>
-                <li>Oracle Certified Associate, Oracle Java SE 8 Programmer</li>
-                <li>Oracle Database 11g: SQL Fundamentals I</li>
-                <li>ITIL Process Space</li>
+            <div class="section-head reveal">
+                <p class="eyebrow">Credentials</p>
+                <h2>Certifications &amp; education</h2>
+            </div>
+            <ul class="cert-list reveal">
+                <li><span class="badge">OCP</span>Oracle Database 12c Administrator Certified Professional</li>
+                <li><span class="badge">OCE</span>Oracle RAC 11g &amp; Grid Infrastructure Administrator</li>
+                <li><span class="badge">OCP</span>Oracle Database 11g Administrator Certified Professional</li>
+                <li><span class="badge">OCA</span>Oracle Certified Associate 11g</li>
+                <li><span class="badge">OCI</span>Oracle Cloud Infrastructure Architect Associate</li>
+                <li><span class="badge">OCI</span>Oracle Cloud Infrastructure Foundations Associate</li>
+                <li><span class="badge">OCA</span>Oracle Java SE 8 Programmer</li>
+                <li><span class="badge">AWS</span>AWS Certified Developer — Associate</li>
+                <li><span class="badge">AZ</span>Microsoft Certified: Azure Fundamentals</li>
+                <li><span class="badge">ITIL</span>ITIL Foundation in IT Service Management</li>
             </ul>
-        </div>
-    </section>
-
-    <section id="education" class="section section-alt">
-        <div class="container">
-            <p class="eyebrow">Education</p>
-            <h2>Academic Background</h2>
-            <div class="education-grid">
-                <div class="card">
-                    <h3>Bachelor of Engineering — ECE</h3>
-                    <p>Anna University · Dr. Mahalingam College of Engineering and Technology, Pollachi</p>
-                    <span class="timeline-date">2006 — 2010</span>
-                </div>
+            <div class="edu glass reveal" style="margin-top:16px">
+                <h3>B.E., Electronics &amp; Communication Engineering</h3>
+                <p>Anna University — Dr. Mahalingam College of Engineering and Technology, Pollachi</p>
+                <span class="timeline-date">2006 — 2010</span>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="section section-contact">
+    <section id="contact" class="section">
         <div class="container">
-            <p class="eyebrow">Contact</p>
-            <h2>Let's build something reliable together</h2>
-            <p class="contact-sub">
-                Whether it's a cloud migration, a replication pipeline, or a database that needs expert care,
-                I'd love to hear from you.
-            </p>
-            <div class="contact-actions">
-                <a class="btn btn-primary" href="mailto:mguhan89@gmail.com">Email Me</a>
-                <a class="btn btn-outline" href="https://www.linkedin.com/in/mguhan/" target="_blank" rel="noopener">LinkedIn</a>
+            <div class="contact-panel glass glow reveal">
+                <p class="eyebrow">Contact</p>
+                <h2>Let's keep your data <span class="grad-text">reliable</span>.</h2>
+                <p class="contact-sub">
+                    Based in London and open to senior Oracle &amp; PostgreSQL DBA and database engineering roles in
+                    banking, financial services and other regulated environments.
+                </p>
+                <div class="contact-actions">
+                    <a class="btn btn-primary" href="mailto:mguhan89@gmail.com">Email me <span class="arrow" aria-hidden="true">→</span></a>
+                    <a class="btn btn-outline" href="https://www.linkedin.com/in/mguhan/" target="_blank" rel="noopener">LinkedIn</a>
+                </div>
             </div>
         </div>
     </section>
@@ -350,5 +441,34 @@
         </div>
     </footer>
 
+    <script>
+        (function () {
+            /* reveal on scroll */
+            var items = document.querySelectorAll('.reveal');
+            if ('IntersectionObserver' in window) {
+                var io = new IntersectionObserver(function (entries) {
+                    entries.forEach(function (e) {
+                        if (e.isIntersecting) { e.target.classList.add('is-in'); io.unobserve(e.target); }
+                    });
+                }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+                items.forEach(function (el) { io.observe(el); });
+            } else {
+                items.forEach(function (el) { el.classList.add('is-in'); });
+            }
+
+            /* highlight the nav link for the section in view */
+            var links = Array.prototype.slice.call(document.querySelectorAll('.nav-links a[href^="#"]'));
+            var targets = links.map(function (a) { return document.querySelector(a.getAttribute('href')); }).filter(Boolean);
+            if ('IntersectionObserver' in window && targets.length) {
+                var spy = new IntersectionObserver(function (entries) {
+                    entries.forEach(function (e) {
+                        if (!e.isIntersecting) return;
+                        links.forEach(function (a) { a.classList.toggle('is-active', a.getAttribute('href') === '#' + e.target.id); });
+                    });
+                }, { rootMargin: '-45% 0px -50% 0px' });
+                targets.forEach(function (t) { spy.observe(t); });
+            }
+        })();
+    </script>
 </body>
 </html>

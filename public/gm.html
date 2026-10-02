@@ -4,25 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume — Guhan Mathiazhagan</title>
-    <meta name="description" content="Resume of Guhan Mathiazhagan, Senior Database Administrator with 12+ years managing high-availability Oracle and PostgreSQL environments. AWS and Oracle certified.">
-    <link rel="icon" href="../assest/images/gmlogo1_subtle_blue.png" type="image/x-icon">
+    <meta name="description" content="Resume of Guhan Mathiazhagan, Senior Database Administrator (Oracle &amp; PostgreSQL) with 12+ years across banking and financial services.">
+    <meta name="theme-color" content="#05080f">
+    <link rel="icon" href="../assest/images/gmlogo1_subtle_blue.png" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 
-    <nav class="nav">
-        <div class="container nav-inner">
+    <nav class="nav" aria-label="Main">
+        <div class="nav-inner">
             <a href="../index.html" class="brand">
-                <img src="../assest/images/gmlogo1_subtle_blue.png" alt="GM logo" width="26" height="26">
-                <span>Guhan</span>
+                <img src="../assest/images/gmlogo1_subtle_blue.png" alt="" width="30" height="30">
+                <span>Guhan Mathiazhagan</span>
             </a>
             <ul class="nav-links">
                 <li><a href="../index.html#about">About</a></li>
                 <li><a href="../index.html#experience">Experience</a></li>
-                <li><a href="../index.html#certifications">Certifications</a></li>
                 <li><a href="../index.html#contact">Contact</a></li>
                 <li><a class="nav-resume" href="../index.html">Home</a></li>
             </ul>
@@ -31,13 +31,21 @@
 
     <header class="resume-header">
         <div class="container">
-            <h1>Guhan Mathiazhagan</h1>
-            <p class="resume-role">Senior Database Administrator — Data Engineer</p>
-            <p class="resume-meta">
-                London, United Kingdom &nbsp;·&nbsp;
-                <a href="mailto:mguhan89@gmail.com">mguhan89@gmail.com</a> &nbsp;·&nbsp;
-                <a href="https://www.linkedin.com/in/mguhan/" target="_blank" rel="noopener">linkedin.com/in/mguhan</a>
-            </p>
+            <div class="glass glow">
+                <img src="../assest/images/profile_pic.jpeg" alt="Guhan Mathiazhagan" width="88" height="88">
+                <div>
+                    <h1>Guhan Mathiazhagan</h1>
+                    <p class="resume-role">Senior Database Administrator (Oracle &amp; PostgreSQL) · 12+ years · Banking &amp; Financial Services</p>
+                    <p class="resume-meta">
+                        London, United Kingdom &nbsp;·&nbsp;
+                        <a href="mailto:mguhan89@gmail.com">mguhan89@gmail.com</a> &nbsp;·&nbsp;
+                        <a href="https://www.linkedin.com/in/mguhan/" target="_blank" rel="noopener">linkedin.com/in/mguhan</a>
+                    </p>
+                </div>
+                <div class="resume-actions">
+                    <button class="btn btn-outline" type="button" onclick="window.print()">Print / save PDF</button>
+                </div>
+            </div>
         </div>
     </header>
 
@@ -46,51 +54,66 @@
         <section class="resume-section">
             <h2>Summary</h2>
             <p>
-                Senior Database Administrator with 12+ years managing high-availability Oracle and PostgreSQL
-                environments across banking and financial services. AWS and Oracle Certified Professional with deep
-                expertise in Oracle RAC, Data Guard, GoldenGate, Exadata, and RMAN, supporting mission-critical
-                systems with 100% SLA compliance and up to 25% downtime reduction through RAC and replication
-                optimization. Currently Data Engineer III at American Express, applying core DBA expertise to
-                Kafka-based replication and CI/CD-driven database release management.
+                Senior Database Administrator with 12+ years managing high-availability Oracle and PostgreSQL environments
+                across banking and financial services, supporting a team-managed estate of 5,000+ production databases. Deep
+                Oracle DBA foundation (RAC, Data Guard, GoldenGate, Exadata, RMAN) combined with hands-on PostgreSQL
+                administration — installation, performance tuning, logical/streaming replication, backup and recovery, schema
+                design and migration. Proven track record diagnosing and resolving critical production defects in direct
+                partnership with Oracle Support, executing compliant patching and migrations, and leading PostgreSQL version
+                upgrades within CI/CD-driven release environments. Currently Data Engineer III at American Express, operating
+                across both platforms daily.
             </p>
             <p class="tagline">
-                Oracle RAC · PostgreSQL · Data Guard · GoldenGate · Exadata · RMAN · AWS · Database Migration ·
-                High Availability · Disaster Recovery · Performance Tuning · ITIL
+                Oracle RAC · Data Guard · GoldenGate · Exadata · RMAN · PostgreSQL · Logical &amp; Streaming Replication ·
+                Performance Tuning · Backup &amp; Recovery · High Availability · Disaster Recovery · Database Migration ·
+                Database Security · ITIL
             </p>
         </section>
 
         <section class="resume-section">
             <h2>Skills</h2>
             <div class="resume-skills">
-                <div class="skill-cat">
+                <div class="skill-cat glass">
                     <span class="skill-cat-label">Databases</span>
-                    <p>Oracle (11g, 12c, 19c), PostgreSQL, SQL Server, YugabyteDB</p>
+                    <p>Oracle (11g, 12c, 19c), PostgreSQL, SQL Server, YugabyteDB, Cassandra</p>
                 </div>
-                <div class="skill-cat">
+                <div class="skill-cat glass">
                     <span class="skill-cat-label">Oracle Database &amp; Tools</span>
                     <p>Oracle RAC, Data Guard, GoldenGate, Exadata, RMAN, ASM, AWR, Datapump, OEM, SQL*Plus, exp/imp</p>
                 </div>
-                <div class="skill-cat">
+                <div class="skill-cat glass">
+                    <span class="skill-cat-label">PostgreSQL Administration</span>
+                    <p>Installation &amp; Configuration, Performance Tuning, Logical &amp; Streaming Replication (Publication/Subscription), Backup &amp; Recovery, Schema Design &amp; Migration, High Availability, DB Clustering</p>
+                </div>
+                <div class="skill-cat glass">
                     <span class="skill-cat-label">Database Administration</span>
-                    <p>Backup &amp; Recovery, Disaster Recovery, Database Migration, Performance Tuning, High Availability, Troubleshooting, Patching &amp; Upgrades</p>
+                    <p>Disaster Recovery, Database Security &amp; Access Control, DB Clustering, Patching &amp; Upgrades, Troubleshooting</p>
                 </div>
-                <div class="skill-cat">
+                <div class="skill-cat glass">
                     <span class="skill-cat-label">Cloud Platforms</span>
-                    <p>AWS, Oracle Cloud Infrastructure (OCI), Azure</p>
+                    <p>AWS, GCP Cloud SQL, Oracle Cloud Infrastructure (OCI), Azure</p>
                 </div>
-                <div class="skill-cat">
+                <div class="skill-cat glass">
                     <span class="skill-cat-label">DevOps &amp; CI/CD</span>
-                    <p>Docker, GitHub Actions, Jenkins, Liquibase, Ansible, Portainer</p>
+                    <p>Docker, Kubernetes, GitHub Actions, Jenkins, Liquibase, Ansible, Terraform (IaC), Grafana, Portainer</p>
                 </div>
-                <div class="skill-cat">
+                <div class="skill-cat glass">
                     <span class="skill-cat-label">Programming &amp; Scripting</span>
-                    <p>Python, Core Java, Shell Scripting, SQL</p>
+                    <p>Python, Core Java, Shell Scripting, SQL, Data Pipelines</p>
                 </div>
-                <div class="skill-cat">
+                <div class="skill-cat glass">
+                    <span class="skill-cat-label">Database Programming</span>
+                    <p>PL/SQL &amp; PL/pgSQL development — triggers, stored procedures, functions</p>
+                </div>
+                <div class="skill-cat glass">
+                    <span class="skill-cat-label">Data Modelling</span>
+                    <p>Table &amp; relationship design, schema design for application teams (ER/Studio), Data Modeling, Data Warehousing</p>
+                </div>
+                <div class="skill-cat glass">
                     <span class="skill-cat-label">Operating Systems</span>
                     <p>Linux, Solaris, Ubuntu, Windows 10/11</p>
                 </div>
-                <div class="skill-cat">
+                <div class="skill-cat glass">
                     <span class="skill-cat-label">Tools &amp; Collaboration</span>
                     <p>ER/Studio, JIRA, ServiceNow, BMC Remedy, Kanban, Microsoft Office 365</p>
                 </div>
@@ -105,19 +128,20 @@
                     <div class="timeline-head">
                         <div>
                             <h3>Data Engineer III</h3>
-                            <p class="company">American Express · London, United Kingdom</p>
+                            <p class="company">American Express <span class="loc">· London, United Kingdom</span></p>
                         </div>
                         <span class="timeline-date">Feb 2025 — Present</span>
                     </div>
                     <ul>
-                        <li>Implemented and maintained Kafka-based big data replication pipelines and Oracle GoldenGate configurations, resolving high-impact replication issues and setting up new services to support critical financial data systems with minimal latency.</li>
-                        <li>Collaborated with development and infrastructure teams using Kanban board and JIRA to manage agile sprints, ensuring on-time delivery of database engineering tasks aligned with business goals.</li>
-                        <li>Leveraged data models from ER/Studio to automate the creation of database objects in Oracle and PostgreSQL, standardizing schema deployment across multiple environments and reducing manual errors.</li>
-                        <li>Developed and maintained CI/CD pipelines for database changes using GitHub Actions and Liquibase, ensuring controlled, auditable, and efficient deployment of database model updates across staging and production environments.</li>
-                        <li>Performed routine PostgreSQL and Oracle database administration, including health checks, performance tuning, and storage optimization, ensuring optimal uptime and performance for global applications.</li>
-                        <li>Upgraded PostgreSQL from v13 to v15 by configuring logical replication (publication/subscription) to ensure continuous data sync and near-zero downtime.</li>
-                        <li>Led and executed application-specific database release cycles by coordinating with developers, reviewing DDL scripts, validating test outcomes, and ensuring zero-defect deployments in both Oracle and PostgreSQL platforms.</li>
-                        <li>Provisioned and managed GCP Cloud SQL PostgreSQL databases using Terraform, with end-to-end lifecycle management and application-level database support.</li>
+                        <li>Upgraded PostgreSQL across two major version cycles (v13→v15→v17) by configuring logical replication (publication/subscription), achieving near-zero downtime cutover for production systems each time.</li>
+                        <li>Resolved high-impact Oracle GoldenGate replication issues across a 5,000+ database estate, configuring new services to sustain minimal-latency data sync for critical financial systems.</li>
+                        <li>Led application-specific database release cycles across Oracle and PostgreSQL platforms, reviewing DDL scripts and validating test outcomes for zero-defect deployments.</li>
+                        <li>Provisioned and managed GCP Cloud SQL PostgreSQL databases using Terraform, with end-to-end lifecycle management and application-level support.</li>
+                        <li>Developed and maintained CI/CD pipelines for controlled, auditable database change deployment using GitHub Actions and Liquibase across staging and production.</li>
+                        <li>Automated Oracle and PostgreSQL schema object creation from ER/Studio data models, standardizing deployment across multiple environments and removing a recurring source of manual deployment error.</li>
+                        <li>Managed database engineering delivery within a Kanban/JIRA agile framework across cross-functional development and infrastructure teams, keeping release commitments on schedule.</li>
+                        <li>Partnered with application development teams to design and model database tables and relationships from functional requirements, delivering production-ready Oracle and PostgreSQL schemas that kept feature deployments on schedule.</li>
+                        <li>Developed PL/SQL and PL/pgSQL triggers — including audit trail and other application-specific triggers — and stored functions to enforce insert, update and conditional business logic per development team specifications, reducing manual data-integrity checks in downstream application code.</li>
                     </ul>
                 </article>
 
@@ -125,17 +149,18 @@
                     <div class="timeline-head">
                         <div>
                             <h3>Senior Database Engineer</h3>
-                            <p class="company">Wells Fargo International Solutions Pvt Ltd · Bangalore, India</p>
+                            <p class="company">Wells Fargo International Solutions Pvt Ltd <span class="loc">· Bangalore, India</span></p>
                         </div>
                         <span class="timeline-date">Jan 2022 — Sep 2024</span>
                     </div>
                     <ul>
-                        <li>Engineered solutions to ensure high availability, security, and regulatory compliance within Oracle and PostgreSQL database environments, overseeing critical banking systems and meeting 100% SLA for support requests via Jira and ServiceNow. Supported both Oracle Exadata and non-Exadata infrastructure, integrating seamlessly with CI/CD processes.</li>
-                        <li>Executed Oracle RAC database switchovers and switchbacks during scheduled maintenance, reducing downtime by 25% and ensuring uninterrupted operations. Maintained 100% data integrity by resolving Data Guard synchronization issues using OEM, SQL*Plus, and custom scripts.</li>
-                        <li>Played a key role in patching, database migrations, and code deployments, meeting data integrity and security standards. Utilized RMAN, Datapump, and Data Guard to execute restorations and rollouts, achieving compliance and reliability in all database management activities.</li>
-                        <li>Enhanced database performance by refining schema and table structures, resulting in a 20% increase in query speed. Supported multiple database projects by actively monitoring critical performance metrics.</li>
-                        <li>Configured and monitored Oracle GoldenGate to optimize replication and availability, reducing system downtime by 20% through effective error resolution and latency management. Led migration of application schemas to PostgreSQL within cloud-based Docker containers and automated tasks with Ansible, contributing to a proof of concept (PoC) for migration to YugabyteDB as part of the cloud migration strategy.</li>
-                        <li>Collaborated closely with cross-functional DevOps and development teams to integrate database solutions into a scalable CI/CD pipeline, supporting the organization's goals for automation and infrastructure enhancements. Additionally, led a test project using Ansible playbooks and Jenkins to develop and test an automated patching process, streamlining patch management and improving deployment efficiency within the CI/CD environment.</li>
+                        <li>Diagnosed a recurring Oracle Exadata multi-instance switchover hang in direct partnership with Oracle Support; redesigned the switchover process to an application-by-application sequence, eliminating the hang and stabilizing scheduled maintenance windows.</li>
+                        <li>Led migration of application schemas to PostgreSQL within cloud-based Docker containers, automating tasks with Ansible and contributing to a proof-of-concept for YugabyteDB as part of the cloud migration strategy.</li>
+                        <li>Engineered high-availability and regulatory-compliant solutions across Oracle Exadata, non-Exadata and PostgreSQL environments, managing support requests via Jira and ServiceNow within CI/CD-integrated workflows.</li>
+                        <li>Resolved Data Guard synchronization issues using OEM, SQL*Plus and custom scripts, maintaining data integrity across production switchovers and switchbacks.</li>
+                        <li>Executed patching, database migrations and code deployments using RMAN, Datapump and Data Guard, meeting data integrity, compliance and reliability standards.</li>
+                        <li>Configured and monitored Oracle GoldenGate to optimize replication and availability, resolving latency issues and reducing error-driven downtime.</li>
+                        <li>Led a test project using Ansible playbooks and Jenkins to build and validate an automated patching process, improving deployment efficiency within the CI/CD environment.</li>
                     </ul>
                 </article>
 
@@ -143,15 +168,15 @@
                     <div class="timeline-head">
                         <div>
                             <h3>Senior Software Engineer</h3>
-                            <p class="company">Oracle India Pvt Ltd · Bangalore, India</p>
+                            <p class="company">Oracle India Pvt Ltd <span class="loc">· Bangalore, India</span></p>
                         </div>
                         <span class="timeline-date">Aug 2014 — Jan 2022</span>
                     </div>
                     <ul>
-                        <li>Delivered 24/7 global support for Oracle database backups, memory configurations, and troubleshooting, achieving a 95% customer satisfaction rate and ensuring uninterrupted availability.</li>
-                        <li>Improved memory usage by resolving ORA-04030/ORA-04031 errors and enhanced system stability by supporting data migrations via Datapump and export/import methods, along with addressing ORA-00600/ORA-07445 errors through in-depth bug analysis and documentation.</li>
-                        <li>Managed Oracle Cloud (OCI) resources, including instances, storage, and gateway networks, to facilitate seamless cloud migrations. Led on-premises to Oracle Cloud transitions with Datapump, effectively resolving database challenges within OCI to ensure reliable data transfer and system integrity.</li>
-                        <li>Contributed to the development and maintenance of Python and Shell scripts to support cloud migration and data pipeline workflows, improving pipeline stability and optimizing queries for better performance.</li>
+                        <li>Delivered 24/7 global Oracle database support (backups, memory configuration, troubleshooting), sustaining a 95% customer satisfaction rating across mid-year and annual service reviews.</li>
+                        <li>Resolved ORA-04030/ORA-04031 memory errors and ORA-00600/ORA-07445 stability issues through in-depth bug analysis and root-cause documentation, supporting data migrations via Datapump and export/import.</li>
+                        <li>Managed Oracle Cloud Infrastructure (OCI) resources and led on-premises to cloud migrations via Datapump, ensuring reliable data transfer and system integrity.</li>
+                        <li>Built Python and Shell scripts to automate cloud migration and data pipeline tasks, cutting manual intervention and stabilizing recurring pipeline runs.</li>
                     </ul>
                 </article>
 
@@ -159,15 +184,14 @@
                     <div class="timeline-head">
                         <div>
                             <h3>Senior Systems Executive</h3>
-                            <p class="company">Cognizant Technology Solutions · Bangalore, India</p>
+                            <p class="company">Cognizant Technology Solutions <span class="loc">· Bangalore, India</span></p>
                         </div>
                         <span class="timeline-date">Jan 2013 — Aug 2014</span>
                     </div>
                     <ul>
-                        <li>Ensured high availability and compliance for retail and banking clients in the Middle East as an Oracle DBA at GSSC, maintaining a 24/7 production environment with a 99% SLA.</li>
-                        <li>Configured SPfiles, parameter files, and archive log mode; managed privileges, roles, and tablespaces; and monitored blocking sessions, user activity, and memory usage to uphold database stability and performance. Refreshed over 50 schemas from production to development/staging environments, managed user privileges, and enforced auditing for compliance.</li>
-                        <li>Performed database performance monitoring using AWR reports, analyzed alert logs, and preserved data integrity through backup job management and schema/database backups with Expdp/Impdp. Coordinated patch deployments via ServiceNow to support compliance and system stability.</li>
-                        <li>Optimized database performance using AWR, Explain Plan, and SQL Trace. Conducted daily RMAN backups and regular exports to ensure data protection and facilitate recovery.</li>
+                        <li>Ensured high availability and regulatory compliance for retail and banking clients across the Middle East as Oracle DBA at GSSC, sustaining a 24/7 production environment against a 99% SLA.</li>
+                        <li>Configured SPfiles, parameter files and archive log mode; managed privileges, roles and tablespaces; refreshed 50+ schemas from production to development/staging environments, enforcing audit controls for compliance.</li>
+                        <li>Monitored database performance via AWR reports and alert logs; ran daily RMAN backups and scheduled Expdp/Impdp exports to protect data and enable recovery; coordinated patch deployments via ServiceNow.</li>
                     </ul>
                 </article>
 
@@ -175,15 +199,14 @@
                     <div class="timeline-head">
                         <div>
                             <h3>Systems Executive — First-Level Technical Support</h3>
-                            <p class="company">Cognizant Technology Solutions · Bangalore, India</p>
+                            <p class="company">Cognizant Technology Solutions <span class="loc">· Bangalore, India</span></p>
                         </div>
                         <span class="timeline-date">Jul 2011 — Dec 2012</span>
                     </div>
                     <ul>
-                        <li>Resolved an average of 95% of incoming IT inquiries on the first contact in ticketing systems like ServiceNow and BMC Remedy; utilized a comprehensive knowledge base that reduced mean time to resolution by approximately 30 minutes per request.</li>
-                        <li>Managed user accounts, including password resets, access provisioning, and permissions updates, while maintaining a knowledge base and documenting solutions to improve response times and streamline issue resolution.</li>
-                        <li>Supported a regulated healthcare environment by managing permissions and account access, ensuring the secure and efficient operation of Linux and Windows-based systems across production, development, and testing environments.</li>
-                        <li>Performed installations, patching, and upgrades on Windows servers, Windows clients, and Linux servers, proactively resolving issues or escalating complex cases as needed to maintain high service availability and security.</li>
+                        <li>Resolved approximately 95% of incoming IT tickets on first contact via ServiceNow and BMC Remedy, using a knowledge base that cut mean time to resolution by roughly 30 minutes per request.</li>
+                        <li>Managed user account lifecycle — password resets, access provisioning, permissions — across Linux and Windows systems in a regulated healthcare environment.</li>
+                        <li>Performed installation, patching and upgrades across Windows and Linux servers, escalating complex cases to maintain service availability and security.</li>
                     </ul>
                 </article>
             </div>
@@ -191,28 +214,26 @@
 
         <section class="resume-section">
             <h2>Education</h2>
-            <p>
-                <strong>Bachelor of Engineering (Electronics &amp; Communication Engineering)</strong><br>
-                Anna University — Dr. Mahalingam College of Engineering and Technology · Pollachi, Tamil Nadu, India<br>
-                2006 — 2010
-            </p>
+            <div class="edu glass">
+                <h3>Bachelor of Engineering (Electronics &amp; Communication Engineering) — Anna University</h3>
+                <p>Dr. Mahalingam College of Engineering and Technology, Pollachi, Tamil Nadu, India</p>
+                <span class="timeline-date">Jul 2006 — May 2010</span>
+            </div>
         </section>
 
         <section class="resume-section">
             <h2>Certifications</h2>
             <ul class="cert-list">
-                <li>ITIL Foundation Certificate in IT Service Management</li>
-                <li>Microsoft Certified: Azure Fundamentals</li>
-                <li>AWS Certified Developer — Associate</li>
-                <li>Oracle Cloud Infra Architect (OCA)</li>
-                <li>Oracle Cloud Infra Foundations (OCA)</li>
-                <li>Oracle Java SE 8 Programmer (OCA)</li>
-                <li>Oracle Database 12c Administrator Certified Professional</li>
-                <li>Oracle Certified Expert, Oracle Real Application Clusters 11g and Grid Infrastructure Administrator</li>
-                <li>Oracle Database 11g Administrator Certified Professional</li>
-                <li>Oracle Certified Associate 11g</li>
-                <li>Oracle Database 11g: SQL Fundamentals I</li>
-                <li>ITIL Process Space</li>
+                <li><span class="badge">OCP</span>Oracle Database 12c Administrator Certified Professional</li>
+                <li><span class="badge">OCE</span>Oracle Certified Expert, Oracle Real Application Clusters 11g and Grid Infrastructure Administrator</li>
+                <li><span class="badge">OCP</span>Oracle Database 11g Administrator Certified Professional</li>
+                <li><span class="badge">OCA</span>Oracle Certified Associate 11g</li>
+                <li><span class="badge">OCI</span>Oracle Cloud Infrastructure Architect Associate</li>
+                <li><span class="badge">OCI</span>Oracle Cloud Infrastructure Foundations Associate</li>
+                <li><span class="badge">OCA</span>Oracle Java SE 8 Programmer OCA</li>
+                <li><span class="badge">AWS</span>AWS Certified Developer — Associate</li>
+                <li><span class="badge">AZ</span>Microsoft Certified: Azure Fundamentals</li>
+                <li><span class="badge">ITIL</span>ITIL Foundation Certificate in IT Service Management</li>
             </ul>
         </section>
 
@@ -221,6 +242,7 @@
     <footer class="footer">
         <div class="container">
             <p>© 2026 Guhan Mathiazhagan. All rights reserved.</p>
+            <p class="footer-quote">“The only way to fail is to give up. As long as you keep moving forward, you're still in the game.” — Lewis Hamilton</p>
         </div>
     </footer>
 
